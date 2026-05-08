@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
 
-    const GS_API_URL = "https://script.google.com/macros/s/AKfycbwcpIH9cgwrQJ44iifU0NG-c2uXHTXLnEFefa5ZvokJChMMij8RzsV49YWzp-i8QksV/exec";
+    const GS_API_URL = "https://script.google.com/macros/s/AKfycbyjv7U_ZqpFLMGNMRUJBESF8QnwGJ8N_oqqc4pMh4xflmJnhA30Adj6d1yIofm_XLir/exec";
 
     try {
         const params = new URLSearchParams(req.query);
